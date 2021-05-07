@@ -4,7 +4,6 @@ import random
 import glob
 
 import numpy as np
-import tensorflow as tf
 
 class datacreate:
     def __init__(self):
