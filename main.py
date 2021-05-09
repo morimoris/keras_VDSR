@@ -78,7 +78,7 @@ if __name__ == "__main__":
         train_x /= 255
         train_y /= 255
 
-        train_model = model.VDSR(20)
+        train_model = model.VDSR(model_depth)
 
         for i in range(EPOCHS // 20):
             optimizers = tf.keras.optimizers.SGD(lr=0.01 * (0.1 ** i), momentum=0.9, decay=1e-4, nesterov=False)
