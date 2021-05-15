@@ -34,5 +34,3 @@ def VDSR(depth):
     model.summary()
 
     return model
-
-model = VDSR
